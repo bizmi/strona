@@ -3,59 +3,50 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>AutoBlog.pl</title>
+    <title >AutoBlog.pl</title>
     <link rel="stylesheet" href="style.css" type="text/css">
-        <style>
-        body {
-
-            font-family: Arial;
-            background: rgba(0, 0, 0, 0.589)
-            ;
-        }
-        header {
-            background: rgba(0, 0, 255, 0.76);
-            padding: 10px;
-        }
-
-        h1{
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-        main {
-            background: green;
-            padding: 10px;
-        }
-    
-    </style>
+        
 
 </head>
 
 <body style>
+    <xls scr ="samochodów"></xls>
     
     <header >
-        <h1>Hello,HTML</h1>
+        <h1 class="headline">AutoBlog</h1>
         <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="#">Kontakt</a>
+            <a href="index.html" class="counter">            Strona główna 
+            <span>12</span>
+   
+        <a href="contact.html">Kontakt</a>
         <a href="#">o blogu</a>
 
 
         </nav>
         <main>
-           <setion>
+           <section>
                <h2>Nowy mercedes</h2>
-               <p>
+               <div>
+                   <p>
                    Pojawił się nowy mercedes
+                  
+                   <a href="positions.html" class="see-more">Kliknij i zobacz</a>
+                   <img src="mercedes.jpg" alt="mercedes">
                </p>
-               </setion>
+               </div>
+               </section>
                <section>
                    <h2>Test Volskwagena</h2>
+                   <div>
+                   <img src="arteaon.jpg" alt="vw">
                    <p>Testowaliśmi osiągi samochodów Volskwagen, sprawdź wyniki</p>
-               </section>
+                    </div>
+                </section>
         </main>
-        <footer>
+        <footer class="green">
             AutoBlog.pl 2018
         </footer>
+
 
     </header>
 
