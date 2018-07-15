@@ -6,25 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-            .box{
-                background: green;
-            }
+        .wrapper .column{
+            width: 50%;
+            float: left;
+            padding: 10px;
+            box-sizing: border-box
+        } 
+        
+        .wrapper .green{
+            background: green;
+        }
+        .wrapper .blue{
+            background: blue;
+        }
 
-            @media only screen and (min-width: 651px) and ( max-width: 1024px) {
-                .box{
-                    background: orange;
-                }
-}
-                @media only screen and (min-width: 321px) and (max-width: 650px){
-                    .box{
-                        background: blue;
-                }
+        @media only screen and (max-width: 640px){
+            .wrapper .column{
+                width: 100%;
             }
+        }
+
+        
+
+
+
     
     </style>
 </head>
 <body>
-    <div class="box">Hello box!</div>
+    <div class="wrapper">
+   <div class="column green">1</div>
+   <div class="column blue">2</div>
     
 </body>
 </html>
