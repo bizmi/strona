@@ -12,13 +12,29 @@
        header nav{
             text-align: center;
             background: rgb(128, 26, 0);
-            padding: 5px;
+           
         }
+       
+            
+        
         header nav a {
             color: black;
+            padding: 5px;
+            margin-right: 10px;
+         
+
+        
+        } 
+        header nav a:hover{
+            background: green;
         }
+
         main section h2{
             color: rgb(0, 4, 17);
+        }
+
+        main section p:hover{
+            background: yellow;
         }
         main section p a{
             color: #2a86a5
